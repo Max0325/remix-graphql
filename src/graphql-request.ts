@@ -5,7 +5,7 @@ import {
   processRequest,
   Request as HelixRequest,
 } from "graphql-helix";
-import { json } from "remix";
+import { json } from "@remix-run/node";
 import { Context, CustomContext } from "./context";
 import { deriveStatusCode as defaultDeriveStatusCode } from "./derive-status-code";
 

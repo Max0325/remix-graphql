@@ -1,6 +1,5 @@
-import { GraphQLError, GraphQLSchema } from "graphql";
-import { ActionFunction, json } from "remix";
-import { Readable } from "stream";
+import type { ActionFunction } from "@remix-run/server-runtime";
+import { GraphQLSchema } from "graphql";
 import { CustomContext } from "./context";
 import { deriveStatusCode as defaultDeriveStatusCode } from "./derive-status-code";
 import { handleRequest } from "./handle-request";

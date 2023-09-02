@@ -1,5 +1,5 @@
+import type { LoaderFunction } from "@remix-run/server-runtime";
 import { GraphQLSchema } from "graphql";
-import { LoaderFunction } from "remix";
 import { CustomContext } from "./context";
 import { deriveStatusCode as defaultDeriveStatusCode } from "./derive-status-code";
 import { handleRequest } from "./handle-request";
